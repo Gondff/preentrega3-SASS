@@ -6,18 +6,16 @@
     background-image: linear-gradient(to bottom, #666666, grey);
     flex-wrap: wrap;
     min-height: 20vh; }
-  
-  .header img {
+    img {
     width: 100px; }
   
   /* Menu hamburguesa */
-  .nav-link a:hover {
-    color: black; }
-  
-  .nav-link {
+    .nav-link {
     color: white;
     font-weight: bold;
     padding-right: 9px; }
+    &:hover {
+        color: black; }
   
   .navbar-toggler {
     border: none !important; }

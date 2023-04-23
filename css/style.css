@@ -8,7 +8,6 @@
 
 /* Tipografias */
 /* Fuente externa */
-
 /* Acomodar Header , logo mas barra de nvegacion */
 .header {
   display: flex;
@@ -18,7 +17,7 @@
   flex-wrap: wrap;
   min-height: 20vh; }
 
-.header img {
+img {
   width: 100px; }
 
 /* Menu hamburguesa */
@@ -37,8 +36,7 @@
   box-shadow: none !important; }
 
 .nav-item a:hover {
-  color: black; 
-}
+  color: black; }
 
 /* Main */
 /* Titulos y parrafo */
@@ -118,15 +116,7 @@ p {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(9, 1fr);
-  grid-template-areas: "horaios Lunes Martes Miercoles Jueves Viernes Sabado"
- "10a11 boxeo boxeo boxeo boxeo boxeo boxeo"
- "11a12 boxeo boxeo boxeo boxeo boxeo"
- "15a16 boxeo boxeo boxeo boxeo boxeo"
- "16a17 boxeo boxeo boxeo boxeo boxeo"
- "18a19 boxeo boxeo boxeo boxeo boxeo"
- "19a20 boxeo boxeo boxeo boxeo boxeo"
- "20a21 boxeo boxeo boxeo boxeo boxeo"
- "21a22 boxeo boxeo boxeo boxeo boxeo";
+  grid-template-areas: "horaios Lunes Martes Miercoles Jueves Viernes Sabado" "10a11 boxeo boxeo boxeo boxeo boxeo boxeo" "11a12 boxeo boxeo boxeo boxeo boxeo" "15a16 boxeo boxeo boxeo boxeo boxeo" "16a17 boxeo boxeo boxeo boxeo boxeo" "18a19 boxeo boxeo boxeo boxeo boxeo" "19a20 boxeo boxeo boxeo boxeo boxeo" "20a21 boxeo boxeo boxeo boxeo boxeo" "21a22 boxeo boxeo boxeo boxeo boxeo";
   text-align: center;
   align-items: center;
   justify-items: center;
