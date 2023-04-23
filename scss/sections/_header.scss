@@ -1,0 +1,30 @@
+/* Acomodar Header , logo mas barra de nvegacion */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #666666, grey);
+    flex-wrap: wrap;
+    min-height: 20vh; }
+  
+  .header img {
+    width: 100px; }
+  
+  /* Menu hamburguesa */
+  .nav-link a:hover {
+    color: black; }
+  
+  .nav-link {
+    color: white;
+    font-weight: bold;
+    padding-right: 9px; }
+  
+  .navbar-toggler {
+    border: none !important; }
+  
+  .navbar-toggler:focus {
+    box-shadow: none !important; }
+  
+  .nav-item a:hover {
+    color: black; 
+  }
