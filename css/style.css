@@ -181,6 +181,31 @@ p {
   outline: none;
   background-color: white; }
 
+/* Pagina Quienes Somos */
+.h1-profesores {
+  padding: 15px;
+  color: white; }
+
+.quienes-somos {
+  text-align: center;
+  color: black;
+  padding: 20px; }
+
+.alan-mariano {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin: 10px; }
+
+.parrafo-profesores h2 {
+  padding-bottom: 25px;
+  min-width: 60px; }
+
+.profesores img {
+  margin: 50px;
+  width: 300px; }
+
 /* Footer */
 .footer {
   display: flex;
@@ -236,7 +261,8 @@ p {
     display: none; }
   .alan-mariano {
     display: flex;
-    flex-direction: row; } }
+    flex-direction: row;
+    justify-content: center; } }
 
 @media (max-width: 1080px) {
   .banner {
