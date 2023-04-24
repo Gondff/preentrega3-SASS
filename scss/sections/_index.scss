@@ -1,0 +1,17 @@
+
+
+.Parrafo-Inicial{
+    text-align: center;
+    font-size: medium;
+}
+
+.imagenes-centrales{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.imagenes-centrales img{
+    width: 300px;
+}

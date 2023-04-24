@@ -7,7 +7,12 @@
 @import './utilities/tipografias';
 
 @import './sections/header';
+@import './sections/index';
 
+
+
+
+@import './sections/footer';
 
 
 
@@ -45,22 +50,6 @@ p{
     padding-bottom: 15px;
     padding-left: 5px;
     padding-right: 5px;
-}
-
-.Parrafo-Inicial{
-    text-align: center;
-    font-size: medium;
-}
-
-.imagenes-centrales{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
-.imagenes-centrales img{
-    width: 300px;
 }
 
 /* Pagina Productos */
@@ -216,32 +205,6 @@ p{
 
 
 
-/* Footer */
-.footer {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(88, 105, 99);
-    min-height: 10vh;
-}
-
-.footer img{
-    width: 60px;
-    
-}
-
-.redes {
-    display: flex;
-    width: 25vw;
-    justify-content: space-evenly;
-    margin-top: 3vh;
-}
-
-.parrafo-final {
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding-top: 2vh;
-}
 
 
 /* Mobile last */

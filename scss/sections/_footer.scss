@@ -1,0 +1,26 @@
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(88, 105, 99);
+    min-height: 10vh;
+}
+
+.footer img{
+    width: 60px;
+    
+}
+
+.redes {
+    display: flex;
+    width: 25vw;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.parrafo-final {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 2vh;
+}

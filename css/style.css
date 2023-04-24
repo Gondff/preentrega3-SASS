@@ -21,13 +21,13 @@ img {
   width: 100px; }
 
 /* Menu hamburguesa */
-.nav-link a:hover {
-  color: black; }
-
 .nav-link {
   color: white;
   font-weight: bold;
   padding-right: 9px; }
+
+.nav-link a:hover {
+  color: black; }
 
 .navbar-toggler {
   border: none !important; }
@@ -37,6 +37,41 @@ img {
 
 .nav-item a:hover {
   color: black; }
+
+.Parrafo-Inicial {
+  text-align: center;
+  font-size: medium; }
+
+.imagenes-centrales {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap; }
+
+.imagenes-centrales img {
+  width: 300px; }
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #586963;
+  min-height: 10vh; }
+
+.footer img {
+  width: 60px; }
+
+.redes {
+  display: flex;
+  width: 25vw;
+  justify-content: space-evenly;
+  margin-top: 3vh; }
+
+.parrafo-final {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 2vh; }
 
 /* Main */
 /* Titulos y parrafo */
@@ -67,19 +102,6 @@ p {
   padding-bottom: 15px;
   padding-left: 5px;
   padding-right: 5px; }
-
-.Parrafo-Inicial {
-  text-align: center;
-  font-size: medium; }
-
-.imagenes-centrales {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  flex-wrap: wrap; }
-
-.imagenes-centrales img {
-  width: 300px; }
 
 /* Pagina Productos */
 .venta-productos {
@@ -205,28 +227,6 @@ p {
 .profesores img {
   margin: 50px;
   width: 300px; }
-
-/* Footer */
-.footer {
-  display: flex;
-  justify-content: center;
-  background-color: #586963;
-  min-height: 10vh; }
-
-.footer img {
-  width: 60px; }
-
-.redes {
-  display: flex;
-  width: 25vw;
-  justify-content: space-evenly;
-  margin-top: 3vh; }
-
-.parrafo-final {
-  display: flex;
-  justify-content: center;
-  color: white;
-  padding-top: 2vh; }
 
 /* Mobile last */
 @media (max-width: 700px) {
