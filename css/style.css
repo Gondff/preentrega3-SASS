@@ -1,9 +1,12 @@
-/* Reset */
+/*reset*/
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Source+Sans+Pro:ital,wght@1,300&display=swap");
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; }
+
+body {
   font-family: sans-serif; }
 
 /* Tipografias */
@@ -227,31 +230,6 @@ p {
   justify-content: center;
   color: white;
   padding-top: 2vh; }
-
-/* Pagina Quienes Somos */
-.h1-profesores {
-  padding: 15px;
-  color: white; }
-
-.quienes-somos {
-  text-align: center;
-  color: black;
-  padding: 20px; }
-
-.alan-mariano {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
-  margin: 10px; }
-
-.parrafo-profesores h2 {
-  padding-bottom: 25px;
-  min-width: 60px; }
-
-.profesores img {
-  margin: 50px;
-  width: 300px; }
 
 /* Mobile last */
 @media (max-width: 700px) {
