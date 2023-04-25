@@ -10,25 +10,3 @@
 
 
 @import './sections/footer';
-
-
-/* Mobile last */
-@media (max-width: 700px){
-    .header{
-        justify-content: center;
-    }
-    .p-contacto{
-        display: none;
-    }
-    .alan-mariano{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 1080px){
-    .banner {
-        display: inline-block;
-    }
-}

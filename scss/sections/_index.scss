@@ -1,34 +1,35 @@
 /* Main */
 
 /* Titulos y parrafo */
-h1{
+h1 {
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    
+
 }
 
-p{
+p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.negrita{
+.negrita {
     font-weight: bold;
-    font-size: large;;
+    font-size: large;
+    ;
 }
 
-.main{
+.main {
     min-height: 70vh;
     background-image: linear-gradient(to bottom, rgb(95, 95, 95), rgb(204, 204, 204));
 }
 
-.banner img{
+.banner img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
 }
 
-.titulo-principal{
+.titulo-principal {
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -36,18 +37,24 @@ p{
     padding-right: 5px;
 }
 
-.Parrafo-Inicial{
+.Parrafo-Inicial {
     text-align: center;
     font-size: medium;
 }
 
-.imagenes-centrales{
+.imagenes-centrales {
     display: flex;
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
 }
 
-.imagenes-centrales img{
+.imagenes-centrales img {
     width: 300px;
+}
+
+@media (max-width: 1080px) {
+    .banner {
+        display: inline-block;
+    }
 }

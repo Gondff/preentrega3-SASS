@@ -41,6 +41,10 @@ img {
 .nav-item a:hover {
   color: black; }
 
+@media (max-width: 700px) {
+  .header {
+    justify-content: center; } }
+
 /* Main */
 /* Titulos y parrafo */
 h1 {
@@ -83,6 +87,10 @@ p {
 
 .imagenes-centrales img {
   width: 300px; }
+
+@media (max-width: 1080px) {
+  .banner {
+    display: inline-block; } }
 
 /* Pagina Productos */
 .venta-productos {
@@ -142,6 +150,13 @@ p {
   justify-content: center;
   margin: 2px; }
 
+@media (max-width: 700px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "horaios Lunes Viernes Sabado" "10a11 boxeo boxeo boxeo" "11a12 boxeo boxeo " "15a16 boxeo boxeo"; } }
+
 /* Pagina Contacto */
 .falso-body {
   min-height: 100vh;
@@ -184,6 +199,10 @@ p {
   outline: none;
   background-color: white; }
 
+@media (max-width: 700px) {
+  .p-contacto {
+    display: none; } }
+
 /* Pagina Quienes Somos */
 .h1-profesores {
   padding: 15px;
@@ -199,7 +218,8 @@ p {
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  margin: 10px; }
+  margin: 10px;
+  justify-content: space-around; }
 
 .parrafo-profesores h2 {
   padding-bottom: 25px;
@@ -208,6 +228,13 @@ p {
 .profesores img {
   margin: 50px;
   width: 300px; }
+
+/* Mobile last */
+@media (max-width: 1050px) {
+  .alan-mariano {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
 
 /* Footer */
 .footer {
@@ -230,18 +257,3 @@ p {
   justify-content: center;
   color: white;
   padding-top: 2vh; }
-
-/* Mobile last */
-@media (max-width: 700px) {
-  .header {
-    justify-content: center; }
-  .p-contacto {
-    display: none; }
-  .alan-mariano {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; } }
-
-@media (max-width: 1080px) {
-  .banner {
-    display: inline-block; } }

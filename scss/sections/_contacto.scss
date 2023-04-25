@@ -1,45 +1,54 @@
 /* Pagina Contacto */
-.falso-body{
+.falso-body {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.p-contacto{
+.p-contacto {
     display: flex;
     font-size: large;
     height: 400px;
     width: 400px;
     color: rgb(0, 0, 0);
 }
-.form{
+
+.form {
     padding: 50px 5px;
-    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     text-align: center;
     width: 340px;
 }
-.grupo{
+
+.grupo {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-.contactanos{
+
+.contactanos {
     color: white;
     font: 30px;
     font-weight: bold;
 }
 
-.etiquetas{
+.etiquetas {
     font-size: 15px;
     margin-bottom: 15px;
 }
 
-.inputs{
+.inputs {
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
     outline: none;
     background-color: white;
+}
+
+@media (max-width: 700px) {
+    .p-contacto {
+        display: none;
+    }
 }
