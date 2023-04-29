@@ -20,15 +20,16 @@
       &:hover {
       color: black;
       }
+      .navbar-toggler {
+        border: none !important;
+        &:focus {
+          box-shadow: none !important;
+        }
+      }
   }
 }
 
-.navbar-toggler {
-  border: none !important;
-    &:focus {
-    box-shadow: none !important;
-    }
-}
+
 
 .nav-item { 
   a{
