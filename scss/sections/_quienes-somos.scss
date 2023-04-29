@@ -3,31 +3,33 @@
     padding: 15px;
     color: white;
 }
-
+.profesores{ 
+    img {
+    margin: 50px;
+    width: 300px;
+    }
+    .alan-mariano {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        justify-content: space-around;
+        .parrafo-profesores h2 {
+            padding-bottom: 25px;
+            min-width: 60px;
+        }
+    }
+}
 .quienes-somos {
     text-align: center;
     color: black;
     padding: 20px;
-}
-
-.alan-mariano {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    margin: 10px;
-    justify-content: space-around;
-
-}
-
-.parrafo-profesores h2 {
-    padding-bottom: 25px;
-    min-width: 60px;
-}
-
-.profesores img {
-    margin: 50px;
-    width: 300px;
+    .negrita {
+        font-weight: bold;
+        font-size: large;
+        ;
+    }
 }
 
 /* Mobile last */
