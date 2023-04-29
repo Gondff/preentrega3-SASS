@@ -110,7 +110,15 @@ p {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(9, 1fr);
-  grid-template-areas: "horaios Lunes Martes Miercoles Jueves Viernes Sabado" "10a11 boxeo boxeo boxeo boxeo boxeo boxeo" "11a12 boxeo boxeo boxeo boxeo boxeo" "15a16 boxeo boxeo boxeo boxeo boxeo" "16a17 boxeo boxeo boxeo boxeo boxeo" "18a19 boxeo boxeo boxeo boxeo boxeo" "19a20 boxeo boxeo boxeo boxeo boxeo" "20a21 boxeo boxeo boxeo boxeo boxeo" "21a22 boxeo boxeo boxeo boxeo boxeo";
+  grid-template-areas: "horaios Lunes Martes Miercoles Jueves Viernes Sabado"
+ "10a11 boxeo boxeo boxeo boxeo boxeo boxeo"
+ "11a12 boxeo boxeo boxeo boxeo boxeo"
+ "15a16 boxeo boxeo boxeo boxeo boxeo"
+ "16a17 boxeo boxeo boxeo boxeo boxeo"
+ "18a19 boxeo boxeo boxeo boxeo boxeo"
+ "19a20 boxeo boxeo boxeo boxeo boxeo"
+ "20a21 boxeo boxeo boxeo boxeo boxeo"
+ "21a22 boxeo boxeo boxeo boxeo boxeo";
   text-align: center;
   align-items: center;
   justify-items: center;
@@ -123,7 +131,10 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-template-rows: repeat(4, 2fr);
-  grid-template-areas: "horaios LunesAViernes Sabado" "10a11 boxeo boxeo" "11a12 boxeo" "15a22 boxeo";
+  grid-template-areas: "horaios LunesAViernes Sabado"
+ "10a11 boxeo boxeo"
+ "11a12 boxeo"
+ "15a22 boxeo";
   text-align: center;
   align-items: center;
   justify-items: center;
@@ -138,7 +149,7 @@ p {
   width: 80px;
   color: white;
   border: 1px solid black;
-  background-color: #00ff6ab4;
+  background-color: rgba(0, 255, 106, 0.704);
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
